@@ -1,4 +1,4 @@
-from print_caps importt allcaps
+from print_caps import allcaps
   def greet():
     reutrn  "hello World!"
   def main():
