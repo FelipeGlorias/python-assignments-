@@ -1,0 +1,7 @@
+#1.) The change that occurs  in increment_int_a does not change a after the function is called
+This is because a in this case is an integer, which creates a new object and assigns teh value to a local variable 
+#2.)However increment_int_b does change b after the function is called 
+This is due to the  fact that b is a dictionary not an integer 
+Leading to b being changed immediately 
+#3.)In other words integers are immutable, meaning that the local copy of the variable is changed 
+Whereas with a dictionary they are mutable, meaning that altering them does change the original value  
