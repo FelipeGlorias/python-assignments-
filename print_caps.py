@@ -1,5 +1,4 @@
 def allcaps(func):
-   
     def wrapper():
         result = func()
         if isinstance(result, str):
