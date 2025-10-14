@@ -10,7 +10,7 @@ class Base:
 
 class Circle(Base):
     def __init__(self, x, y, size):
-        # Call the Base class constructor
+        
         super().__init__(x, y, size)
 
     def draw(self):
