@@ -1,0 +1,8 @@
+# You would want to use inheritance in place of redundant code 
+# Code that you have already written can be inheritaed and used across multiple classes
+# For instance defining something once in a parent class give the child classes the same ability 
+# Which  is useful for classes that are similar in their function 
+# This also lowers the chances of bugs occuring 
+# Inheritance also allows you to use code more flexibly 
+# Being that if you have a bunch of objects you can use one code across all objects 
+# This allows you  to  add new objects  without having to alter existing code 
