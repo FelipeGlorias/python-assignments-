@@ -4,11 +4,11 @@ def merge_list(list1, list2):
     
     for item in list1:
         if not isinstance(item, int):
-            raise TypeError("All list elements must be integers")
+            raise TypeError("All lists must be integers")
     
     for item in list2:
         if not isinstance(item, int):
-            raise TypeError("All list elements must be integers")
+            raise TypeError("All lists must be integers")
     
     merged = list1 + list2
     
